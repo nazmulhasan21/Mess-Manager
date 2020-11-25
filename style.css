@@ -12,6 +12,14 @@ img{
 .container{
     overflow: auto;
 }
+.messManager{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    background: white;
+}
 .messManager .logo{
     width: 150px;
     height: 150px;

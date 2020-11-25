@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mess Manager</title>
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <div class="container pt-3">
+        <div class="row">
+            <div class="col-lg-4 col-sm-8 col-10 m-auto rounded bg-info ">
+                    <div class="py-3 ">
+                        
+                            <div class="messManager d-flex align-items-center justify-content-center mt-3">
+                                    <a href="https://www.facebook.com/profile.php?id=100009488182425"> <div class="logo"><img src="sumon.jpg" alt=""> </div></a>
+                            </div>
+                       
+                        <div class="messManagerdetials text-center">
+                                <h3>Md. Sumon Kobir</h3>
+                                <h4>Mess Manager</h4>
+                            <h5>November 2020</h5>
+                        </div>
+                  </div>
+                </div>
+
+                
+                
+        </div>
+        <br>
+        <div class=" pb-4 ">
+
+       <select name="Search" class="form-control btn-outline-dark " id="myInput">
+           <option value=""> Select Your Facebook Name</option>
+           <option value="Md. Nazmul Hasan">Md. Nazmul Hasan</option>
+           <option value="Md. Sumon Kobir">Md. Sumon Kobir</option>
+           <option value="Md. Ebrahim Hossain">Md. Ebrahim Hossain</option>
+           <option value="Md. Jahid Hasan">Md. Jahid Hasan</option>
+           <option value="Md. HM Alnawaz Hemel">Md. HM Alnawaz Hemel</option>
+           <option value=" Md. Mustakin Hossain">Md. Mustakin Hossain</option>
+           <option value="Md. Asif Mahmud Shawon">Md. Asif Mahmud Shawon</option>
+           <option value="Md. Abusayed">Md. Abusayed</option>
+           <option value="Md. Habibur Rahman">Md. Habibur Rahman</option>
+           <option value="Md. Hafizur Rahaman">Md. Hafizur Rahaman</option>
+           <option value="Md. Elyeas ">Md. Elyeas</option>
+           <option value="Md. Adnan Rabby Hossain">Md. Adnan Rabby Hossain</option>
+           <option value="Md. Shajahan Shamrat">Md. Shajahan Shamrat</option>
+           <option value="Md. Ishak Ali">Md. Ishak Ali</option>
+           <option value="Md. Zaminur Rahman">Md. Zaminur Rahman</option>
+           <option value="Md. Hossain Mahmud Rana">Md. Hossain Mahmud Rana</option>
+           <option value="Md. Tanvir Ahamed Riday">Md. Tanvir Ahamed Riday</option>
+           <option value="Md. Ashik Khan">Md. Ashik Khan</option>
+           <option value="Md. Arafat Rahaman">Md. Arafat Rahaman</option>
+           <option value="Md. Mohibbullah Razu">Md. Mohibbullah Razu</option>
+           <option value="Md. Injamul Hossain"> Md. Injamul Hossain</option>
+           <option value="Md."></option>
+           <option value="Md. Mehedi Hasan Shawon">Md. Mehedi Hasan Shawon</option>
+
+       </select>
+    </div>       
+        <table class="table table-bordered   table-style">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>No</th>
+                        <th>Facebook ID Name</th>
+                        <th>মিল</th>
+                        <th>মোট মিল</th>
+                        <th>মিল রেট</th>
+                        <th>মোট মিল খরচ</th>
+                        <th>খালা / ভুষি / WiFi</th>
+                        <th>মোট খরচ</th>
+                        <th>জমার পরিমাণ</th>
+                        <th>উদ্ধত্ত / বাকি</th>
+                        <th>চাউল</th>
+        
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+                         <tr>
+                            <td>1</td>
+                            <td>Md. Nazmul Hasan</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Md. Sumon Kobir </td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Md.Ebrahim Hossain </td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Md. Jahid Hasan</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                         <tr>
+                            <td>5</td>
+                            <td>Md. HM Alnawaz Hemel</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Md. Mustakin Hossain</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Md. Asif Mahmud Shawon</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Md. Abusayed</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Md. Habibur Rahman</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Md. Hafizur Rahaman</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Md. Elyeas</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Md. Adnan Rabby Hossain</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Md. Shajahan Shamrat</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Md. Ishak Ali</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Md. Zaminur Rahman</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>Md. Hossain Mahmud Rana</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>Md. Tanvir Ahamed Riday</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>Md. Ashik Khan</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>Md. Arafat Rahaman</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>Md. Mohibbullah Razu</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>21</td>
+                            <td>Md. Injamul Hossain</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>Md. Ebrahim Hossain</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>Md. Mehedi Hasan Shawon</td>
+                            <td>60</td>
+                            <td>65</td>
+                            <td>14.68</td>
+                            <td>954.2</td>
+                            <td>250</td>
+                            <td>1204.2</td>
+                            <td>1100</td>
+                            <td>(100)</td>
+                            <td>+10</td>
+                        </tr>
+                </tbody>
+        
+            </table>
+
+  </div>
+    <script>
+        $(document).ready(function(){
+            $("#myInput").on("change", function(){
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function(){
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+           
+    </script>
+</body>
+</html>
